@@ -50,7 +50,7 @@ export const ProductShowcase = () => {
           />
           <motion.img
             src={tubeImage.src}
-            alt="Pyramid Image"
+            alt="Tube Image"
             height={248}
             width={248}
             className="hidden md:block absolute -left-36 bottom-24"
