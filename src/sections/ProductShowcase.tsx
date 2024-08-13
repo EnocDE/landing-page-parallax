@@ -1,6 +1,6 @@
 import productImage from "@/assets/product-image.png";
-import pyramidImage from "@/assets/pyramid.png"
-import tubeImage from "@/assets/tube.png"
+import pyramidImage from "@/assets/pyramid.png";
+import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
 
 export const ProductShowcase = () => {
@@ -20,9 +20,24 @@ export const ProductShowcase = () => {
           </p>
         </div>
         <div className="relative">
-          <Image src={productImage} alt="Product Image" className="mt-10" />
-          <Image src={pyramidImage} alt="Pyramid Image" height={262} width={262} className="hidden md:block absolute -right-36 -top-32" />
-          <Image src={tubeImage} alt="Pyramid Image" height={248} className="hidden md:block absolute -left-36 bottom-24" />
+          <Image 
+            src={productImage} 
+            alt="Product Image" 
+            className="mt-10"
+          />
+          <Image
+            src={pyramidImage}
+            alt="Pyramid Image"
+            height={262}
+            width={262}
+            className="hidden md:block absolute -right-36 -top-32"
+          />
+          <Image
+            src={tubeImage}
+            alt="Pyramid Image"
+            height={248}
+            className="hidden md:block absolute -left-36 bottom-24"
+          />
         </div>
       </div>
     </section>
