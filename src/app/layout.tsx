@@ -7,7 +7,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Light Saas Landing Page",
-  description: "Template created by Frontend Tribe",
+  description: "Light SaaS Landing Page",
 };
 
 export default function RootLayout({
